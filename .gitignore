@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.pkl
+*.npz
+dataset/ptb/
+nlp_applications/results*/
