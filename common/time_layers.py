@@ -261,6 +261,117 @@ class TimeSoftmaxWithLoss:
         return dx.reshape((N, T, V))
 
 
+class GRU:
+    """
+    Single GRU step.
+    Parameters: Wx_zr (D, 2H), Wx_h (D, H), Wh_zr (H, 2H), Wh_h (H, H),
+                b_zr (2H,), b_h (H,)
+    """
+
+    def __init__(self, Wx_zr, Wx_h, Wh_zr, Wh_h, b_zr, b_h):
+        self.params = [Wx_zr, Wx_h, Wh_zr, Wh_h, b_zr, b_h]
+        self.grads  = [np.zeros_like(p) for p in self.params]
+        self.cache  = None
+
+    def forward(self, x, h_prev):
+        Wx_zr, Wx_h, Wh_zr, Wh_h, b_zr, b_h = self.params
+        # z and r gates together
+        zr = _sigmoid(x @ Wx_zr + h_prev @ Wh_zr + b_zr)
+        H = h_prev.shape[1]
+        z = zr[:, :H]
+        r = zr[:, H:]
+        # candidate hidden state
+        h_tilde = np.tanh(x @ Wx_h + (r * h_prev) @ Wh_h + b_h)
+        h_next = (1 - z) * h_prev + z * h_tilde
+        self.cache = (x, h_prev, z, r, h_tilde, zr)
+        return h_next
+
+    def backward(self, dh_next):
+        Wx_zr, Wx_h, Wh_zr, Wh_h, b_zr, b_h = self.params
+        x, h_prev, z, r, h_tilde, zr = self.cache
+        H = h_prev.shape[1]
+
+        # h_next = (1-z)*h_prev + z*h_tilde
+        dh_tilde = dh_next * z
+        dz       = dh_next * (h_tilde - h_prev)
+        dh_prev  = dh_next * (1 - z)
+
+        # h_tilde = tanh(x@Wx_h + (r*h_prev)@Wh_h + b_h)
+        dt_h = dh_tilde * (1 - h_tilde**2)
+        db_h = dt_h.sum(axis=0)
+        dWx_h = x.T @ dt_h
+        dx_h  = dt_h @ Wx_h.T
+        d_rh  = dt_h @ Wh_h.T
+        dWh_h = (r * h_prev).T @ dt_h
+        dr    = d_rh * h_prev
+        dh_prev += d_rh * r
+
+        # z and r gates: zr = sigmoid(x@Wx_zr + h_prev@Wh_zr + b_zr)
+        dzr_pre = np.hstack([dz, dr]) * zr * (1 - zr)
+        db_zr  = dzr_pre.sum(axis=0)
+        dWx_zr = x.T @ dzr_pre
+        dWh_zr = h_prev.T @ dzr_pre
+        dx     = dx_h + dzr_pre @ Wx_zr.T
+        dh_prev += dzr_pre @ Wh_zr.T
+
+        self.grads[0][...] = dWx_zr
+        self.grads[1][...] = dWx_h
+        self.grads[2][...] = dWh_zr
+        self.grads[3][...] = dWh_h
+        self.grads[4][...] = db_zr
+        self.grads[5][...] = db_h
+        return dx, dh_prev
+
+
+class TimeGRU:
+    """Stateful GRU over a time axis."""
+
+    def __init__(self, Wx_zr, Wx_h, Wh_zr, Wh_h, b_zr, b_h, stateful=False):
+        self.params = [Wx_zr, Wx_h, Wh_zr, Wh_h, b_zr, b_h]
+        self.grads  = [np.zeros_like(p) for p in self.params]
+        self.layers = None
+        self.h = None
+        self.dh = None
+        self.stateful = stateful
+
+    def set_state(self, h):
+        self.h = h
+
+    def reset_state(self):
+        self.h = None
+
+    def forward(self, xs):
+        N, T, D = xs.shape
+        H = self.params[2].shape[0]   # Wh_zr: (H, 2H)
+        self.layers = []
+        hs = np.empty((N, T, H), dtype="f")
+        if not self.stateful or self.h is None:
+            self.h = np.zeros((N, H), dtype="f")
+        for t in range(T):
+            layer = GRU(*[p.copy() for p in self.params])
+            self.h = layer.forward(xs[:, t, :], self.h)
+            hs[:, t, :] = self.h
+            self.layers.append(layer)
+        return hs
+
+    def backward(self, dhs):
+        N, T, H = dhs.shape
+        D = self.params[0].shape[0]   # Wx_zr: (D, 2H)
+        dxs = np.empty((N, T, D), dtype="f")
+        dh = 0
+        grads = [0] * 6
+        for t in reversed(range(T)):
+            layer = self.layers[t]
+            dx, dh = layer.backward(dhs[:, t, :] + dh)
+            dxs[:, t, :] = dx
+            for i, g in enumerate(layer.grads):
+                grads[i] += g
+        for i, g in enumerate(grads):
+            self.grads[i][...] = g
+        self.dh = dh
+        return dxs
+
+
 def _sigmoid(x):
     return np.where(x >= 0, 1/(1+np.exp(-x)), np.exp(x)/(1+np.exp(x)))
 
