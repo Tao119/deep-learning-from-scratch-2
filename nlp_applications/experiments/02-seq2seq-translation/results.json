@@ -1,0 +1,69 @@
+{
+  "bleu1": 100.0,
+  "n_test": 20,
+  "runtime_sec": 4.3,
+  "ja_vocab_size": 25,
+  "en_vocab_size": 19,
+  "demo": [
+    {
+      "japanese": "田中は東京に働く。",
+      "reference": "Tanaka works at Tokyo .",
+      "hypothesis": "Tanaka works at Tokyo .",
+      "match": true
+    },
+    {
+      "japanese": "山田は名古屋に働く。",
+      "reference": "Yamada works at Nagoya .",
+      "hypothesis": "Yamada works at Nagoya .",
+      "match": true
+    },
+    {
+      "japanese": "山田は名古屋に働く。",
+      "reference": "Yamada works at Nagoya .",
+      "hypothesis": "Yamada works at Nagoya .",
+      "match": true
+    },
+    {
+      "japanese": "山田は大阪に働く。",
+      "reference": "Yamada works at Osaka .",
+      "hypothesis": "Yamada works at Osaka .",
+      "match": true
+    },
+    {
+      "japanese": "鈴木は京都に来る。",
+      "reference": "Suzuki comes to Kyoto .",
+      "hypothesis": "Suzuki comes to Kyoto .",
+      "match": true
+    },
+    {
+      "japanese": "田中は名古屋に働く。",
+      "reference": "Tanaka works at Nagoya .",
+      "hypothesis": "Tanaka works at Nagoya .",
+      "match": true
+    },
+    {
+      "japanese": "鈴木は京都に働く。",
+      "reference": "Suzuki works at Kyoto .",
+      "hypothesis": "Suzuki works at Kyoto .",
+      "match": true
+    },
+    {
+      "japanese": "田中は東京に来る。",
+      "reference": "Tanaka comes to Tokyo .",
+      "hypothesis": "Tanaka comes to Tokyo .",
+      "match": true
+    },
+    {
+      "japanese": "鈴木は京都に来る。",
+      "reference": "Suzuki comes to Kyoto .",
+      "hypothesis": "Suzuki comes to Kyoto .",
+      "match": true
+    },
+    {
+      "japanese": "鈴木は名古屋に来る。",
+      "reference": "Suzuki comes to Nagoya .",
+      "hypothesis": "Suzuki comes to Nagoya .",
+      "match": true
+    }
+  ]
+}

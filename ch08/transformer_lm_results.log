@@ -1,0 +1,19 @@
+[Transformer] epoch   1  ppl=15.38
+[Transformer] epoch  51  ppl=4.03
+[Transformer] epoch 101  ppl=1.35
+[Transformer] epoch 151  ppl=1.47
+[RNN] epoch   1  ppl=8.10
+[RNN] epoch  51  ppl=6.66
+[RNN] epoch 101  ppl=4.66
+[RNN] epoch 151  ppl=3.25
+[LSTM] epoch   1  ppl=8.00
+[LSTM] epoch  51  ppl=2.48
+[LSTM] epoch 101  ppl=9.17
+[LSTM] epoch 151  ppl=5.72
+
+=== Final Perplexity Comparison ===
+  RNN        : 2.45
+  LSTM       : 5.47
+  Transformer: 1.46
+
+Generated: the cat ran ran . . . .

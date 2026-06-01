@@ -1,0 +1,25 @@
+=== Sentiment LSTM: Japanese Movie Review Classifier ===
+
+Vocab size (chars): 366
+Max sequence length: 19
+Train: 80  Val: 20
+
+Epoch      Loss   Train Acc   Val Acc
+----------------------------------------
+    1    0.6933      0.8625    0.4000
+   10    0.3362      0.9500    0.5500
+   20    0.0337      1.0000    0.5000
+   30    0.0097      1.0000    0.5000
+   40    0.0049      1.0000    0.5000
+   50    0.0031      1.0000    0.5000
+
+=== Demo: Classify new reviews ===
+  [positive (99.89%)] 映画が素晴らしく感動した
+  [negative (99.53%)] 演技が下手でつまらなかった
+  [positive (99.78%)] ストーリーが面白く楽しめた
+  [negative (100.00%)] 退屈で眠くなってしまった
+  [positive (100.00%)] 心に残る素晴らしい作品だった
+
+Results saved to: /Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/experiments/01-sentiment-lstm/results.json
+Final train acc: 1.0000
+Final val acc:   0.5000

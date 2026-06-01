@@ -1,0 +1,32 @@
+=======================================================
+BiLSTM NER Training
+  samples=100  vocab=17  labels=7
+=======================================================
+epoch  10  loss=0.0156  token_acc=100.0%
+epoch  20  loss=0.0023  token_acc=100.0%
+epoch  30  loss=0.0013  token_acc=100.0%
+epoch  40  loss=0.0008  token_acc=100.0%
+epoch  50  loss=0.0006  token_acc=100.0%
+epoch  60  loss=0.0004  token_acc=100.0%
+epoch  70  loss=0.0003  token_acc=100.0%
+epoch  80  loss=0.0003  token_acc=100.0%
+epoch  90  loss=0.0002  token_acc=100.0%
+epoch 100  loss=0.0002  token_acc=100.0%
+
+Final token-level accuracy: 100.0%
+
+=======================================================
+Demo: predicted vs true tags (3 sentences)
+=======================================================
+
+Sentence 1: Yamada is at Sony .
+  True : ['B-PER', 'O', 'O', 'B-ORG', 'O']
+  Pred : ['B-PER', 'O', 'O', 'B-ORG', 'O']
+
+Sentence 2: Tanaka is at Tokyo .
+  True : ['B-PER', 'O', 'O', 'B-LOC', 'O']
+  Pred : ['B-PER', 'O', 'O', 'B-LOC', 'O']
+
+Sentence 3: Sato is at Osaka .
+  True : ['B-PER', 'O', 'O', 'B-LOC', 'O']
+  Pred : ['B-PER', 'O', 'O', 'B-LOC', 'O']

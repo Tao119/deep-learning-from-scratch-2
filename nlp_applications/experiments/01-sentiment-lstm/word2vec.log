@@ -1,0 +1,329 @@
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 108 (l) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 112 (p) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 26481 (\N{CJK UNIFIED IDEOGRAPH-6771}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 20140 (\N{CJK UNIFIED IDEOGRAPH-4EAC}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12399 (\N{HIRAGANA LETTER HA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 26085 (\N{CJK UNIFIED IDEOGRAPH-65E5}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12398 (\N{HIRAGANA LETTER NO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 39318 (\N{CJK UNIFIED IDEOGRAPH-9996}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 37117 (\N{CJK UNIFIED IDEOGRAPH-90FD}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12391 (\N{HIRAGANA LETTER DE}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12377 (\N{HIRAGANA LETTER SU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12497 (\N{KATAKANA LETTER PA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12522 (\N{KATAKANA LETTER RI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12501 (\N{KATAKANA LETTER HU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12521 (\N{KATAKANA LETTER RA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12531 (\N{KATAKANA LETTER N}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12473 (\N{KATAKANA LETTER SU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12525 (\N{KATAKANA LETTER RO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12489 (\N{KATAKANA LETTER DO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12452 (\N{KATAKANA LETTER I}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12462 (\N{KATAKANA LETTER GI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12505 (\N{KATAKANA LETTER BE}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12523 (\N{KATAKANA LETTER RU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12484 (\N{KATAKANA LETTER TU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 21271 (\N{CJK UNIFIED IDEOGRAPH-5317}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 22269 (\N{CJK UNIFIED IDEOGRAPH-56FD}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12477 (\N{KATAKANA LETTER SO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12454 (\N{KATAKANA LETTER U}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 38867 (\N{CJK UNIFIED IDEOGRAPH-97D3}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12527 (\N{KATAKANA LETTER WA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12471 (\N{KATAKANA LETTER SI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12488 (\N{KATAKANA LETTER TO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12450 (\N{KATAKANA LETTER A}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12513 (\N{KATAKANA LETTER ME}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12459 (\N{KATAKANA LETTER KA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12540 (\N{KATAKANA-HIRAGANA PROLONGED SOUND MARK}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12510 (\N{KATAKANA LETTER MA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12479 (\N{KATAKANA LETTER TA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 22823 (\N{CJK UNIFIED IDEOGRAPH-5927}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 24066 (\N{CJK UNIFIED IDEOGRAPH-5E02}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12395 (\N{HIRAGANA LETTER NI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12367 (\N{HIRAGANA LETTER KU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12364 (\N{HIRAGANA LETTER GA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 20303 (\N{CJK UNIFIED IDEOGRAPH-4F4F}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12435 (\N{HIRAGANA LETTER N}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12356 (\N{HIRAGANA LETTER I}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12427 (\N{HIRAGANA LETTER RU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 32654 (\N{CJK UNIFIED IDEOGRAPH-7F8E}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 34899 (\N{CJK UNIFIED IDEOGRAPH-8853}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 39208 (\N{CJK UNIFIED IDEOGRAPH-9928}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12472 (\N{KATAKANA LETTER ZI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 24515 (\N{CJK UNIFIED IDEOGRAPH-5FC3}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12354 (\N{HIRAGANA LETTER A}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12520 (\N{KATAKANA LETTER YO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12483 (\N{KATAKANA LETTER SMALL TU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12365 (\N{HIRAGANA LETTER KI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12394 (\N{HIRAGANA LETTER NA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 29356 (\N{CJK UNIFIED IDEOGRAPH-72AC}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12506 (\N{KATAKANA LETTER PE}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 29483 (\N{CJK UNIFIED IDEOGRAPH-732B}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12358 (\N{HIRAGANA LETTER U}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12373 (\N{HIRAGANA LETTER SA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:351: UserWarning: Glyph 12366 (\N{HIRAGANA LETTER GI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.tight_layout()
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 108 (l) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 112 (p) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 26481 (\N{CJK UNIFIED IDEOGRAPH-6771}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 20140 (\N{CJK UNIFIED IDEOGRAPH-4EAC}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12399 (\N{HIRAGANA LETTER HA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 26085 (\N{CJK UNIFIED IDEOGRAPH-65E5}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 26412 (\N{CJK UNIFIED IDEOGRAPH-672C}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12398 (\N{HIRAGANA LETTER NO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 39318 (\N{CJK UNIFIED IDEOGRAPH-9996}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 37117 (\N{CJK UNIFIED IDEOGRAPH-90FD}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12391 (\N{HIRAGANA LETTER DE}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12377 (\N{HIRAGANA LETTER SU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12497 (\N{KATAKANA LETTER PA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12522 (\N{KATAKANA LETTER RI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12501 (\N{KATAKANA LETTER HU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12521 (\N{KATAKANA LETTER RA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12531 (\N{KATAKANA LETTER N}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12473 (\N{KATAKANA LETTER SU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12525 (\N{KATAKANA LETTER RO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12489 (\N{KATAKANA LETTER DO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12452 (\N{KATAKANA LETTER I}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12462 (\N{KATAKANA LETTER GI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12505 (\N{KATAKANA LETTER BE}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12523 (\N{KATAKANA LETTER RU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12484 (\N{KATAKANA LETTER TU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 21271 (\N{CJK UNIFIED IDEOGRAPH-5317}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 22269 (\N{CJK UNIFIED IDEOGRAPH-56FD}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12477 (\N{KATAKANA LETTER SO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12454 (\N{KATAKANA LETTER U}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 38867 (\N{CJK UNIFIED IDEOGRAPH-97D3}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12527 (\N{KATAKANA LETTER WA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12471 (\N{KATAKANA LETTER SI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12488 (\N{KATAKANA LETTER TO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12450 (\N{KATAKANA LETTER A}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12513 (\N{KATAKANA LETTER ME}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12459 (\N{KATAKANA LETTER KA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12540 (\N{KATAKANA-HIRAGANA PROLONGED SOUND MARK}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12510 (\N{KATAKANA LETTER MA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12479 (\N{KATAKANA LETTER TA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 22823 (\N{CJK UNIFIED IDEOGRAPH-5927}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 24066 (\N{CJK UNIFIED IDEOGRAPH-5E02}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12395 (\N{HIRAGANA LETTER NI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12367 (\N{HIRAGANA LETTER KU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 20154 (\N{CJK UNIFIED IDEOGRAPH-4EBA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12364 (\N{HIRAGANA LETTER GA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 20303 (\N{CJK UNIFIED IDEOGRAPH-4F4F}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12435 (\N{HIRAGANA LETTER N}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12356 (\N{HIRAGANA LETTER I}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12427 (\N{HIRAGANA LETTER RU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 32654 (\N{CJK UNIFIED IDEOGRAPH-7F8E}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 34899 (\N{CJK UNIFIED IDEOGRAPH-8853}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 39208 (\N{CJK UNIFIED IDEOGRAPH-9928}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12472 (\N{KATAKANA LETTER ZI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 24515 (\N{CJK UNIFIED IDEOGRAPH-5FC3}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12354 (\N{HIRAGANA LETTER A}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12520 (\N{KATAKANA LETTER YO}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12483 (\N{KATAKANA LETTER SMALL TU}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12365 (\N{HIRAGANA LETTER KI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12394 (\N{HIRAGANA LETTER NA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 29356 (\N{CJK UNIFIED IDEOGRAPH-72AC}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12506 (\N{KATAKANA LETTER PE}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 29483 (\N{CJK UNIFIED IDEOGRAPH-732B}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12358 (\N{HIRAGANA LETTER U}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12373 (\N{HIRAGANA LETTER SA}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+/Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/word2vec_analogy.py:352: UserWarning: Glyph 12366 (\N{HIRAGANA LETTER GI}) missing from font(s) Noto Sans Inscriptional Parthian.
+  plt.savefig(out_path, dpi=150)
+=== Word2Vec CBOW with Negative Sampling on Synthetic Japanese Corpus ===
+
+Corpus tokens: 3267  Vocab size: 202
+
+Training CBOW  epochs=200  hidden=50  window=2
+ Epoch      Loss
+--------------------
+     1    4.1569
+    50    3.8216
+   100    3.7406
+   150    3.6637
+   200    3.6867
+
+=== Top-5 Similar Words ===
+
+  [東京]
+    日本: 0.8864
+    医者: 0.8539
+    は: 0.8515
+    の: 0.8485
+    です: 0.8421
+
+  [犬]
+    パリ: 0.8939
+    先生: 0.8888
+    国: 0.8840
+    です: 0.8683
+    で: 0.8665
+
+  [医者]
+    は: 0.9272
+    の: 0.9194
+    な: 0.8997
+    首都: 0.8986
+    猫: 0.8899
+
+=== Analogy Tasks ===
+
+  東京:日本 = パリ:?
+    犬: 0.8151
+    国: 0.8146
+    動物: 0.8050
+    ペット: 0.7966
+    です: 0.7802
+
+  犬:ペット = 猫:?
+    の: 0.8522
+    首都: 0.8225
+    です: 0.8190
+    は: 0.8077
+    と: 0.8075
+
+  医者:病院 = 先生:?
+    働く: 0.8420
+    ペット: 0.7780
+    犬: 0.7707
+    は: 0.7631
+    です: 0.7628
+PCA plot saved: /Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/experiments/01-sentiment-lstm/word_vectors_pca.png
+
+Results saved to: /Users/matsumura-tao/sources/imai-lab/deep-learning-from-scratch-2/nlp_applications/experiments/01-sentiment-lstm/word2vec_results.json

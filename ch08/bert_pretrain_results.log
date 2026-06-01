@@ -1,0 +1,42 @@
+Corpus: 100 sentences
+Example: 'the dog runs in the park .'
+Vocab size: 57  (MASK=0, PAD=1)
+Token matrix shape: (100, 10)
+
+--- Training ---
+Epoch  100  MLM loss = 1.6679
+Epoch  200  MLM loss = 0.9042
+Epoch  300  MLM loss = 0.7897
+Epoch  400  MLM loss = 0.4824
+Epoch  500  MLM loss = 0.3584
+
+Runtime: 2.5s
+
+Masked token top-1 accuracy: 858/1026 = 83.6%
+
+============================================================
+Fill-mask Demo  (top-3 predictions per [MASK])
+============================================================
+
+  Input    : the dog [MASK] in the park .
+  Original : 'runs'
+  Top-3    : ['runs', 'plays', 'jumps']
+
+  Input    : the cat sleeps [MASK] home .
+  Original : 'at'
+  Top-3    : ['at', 'sleeps', 'in']
+
+  Input    : a [MASK] eats near the river .
+  Original : 'bird'
+  Top-3    : ['lion', 'wolf', 'rabbit']
+
+  Input    : the fox plays in [MASK] field .
+  Original : 'the'
+  Top-3    : ['the', 'school', 'stream']
+
+  Input    : the wolf [MASK] over the sky .
+  Original : 'jumps'
+  Top-3    : ['jumps', 'runs', 'sleeps']
+
+Top-3 accuracy on demo sentences: 4/5
+============================================================

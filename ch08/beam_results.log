@@ -1,0 +1,40 @@
+============================================================
+Training TransformerLM …
+============================================================
+[Transformer] epoch   1  ppl=8.31
+[Transformer] epoch  51  ppl=2.34
+[Transformer] epoch 101  ppl=1.37
+[Transformer] epoch 151  ppl=1.50
+
+============================================================
+Generation comparison (beam_width=3, length=8)
+============================================================
+
+Seed: 'the'
+  Greedy : the cat cat ran ran ran ran .                  log_p=-4.556
+  Beam   : the cat cat ran ran ran ran .                  log_p=-4.556
+
+Seed: 'a'
+  Greedy : a cat cat ran . . . .                          log_p=-2.346
+  Beam   : a cat cat ran . . . .                          log_p=-2.346
+
+Seed: 'dog'
+  Greedy : dog ran ran . . . . .                          log_p=-2.027
+  Beam   : dog ran ran . . . . .                          log_p=-2.027
+
+Seed: 'cat'
+  Greedy : cat ran . . . . . .                            log_p=-2.195
+  Beam   : cat ran . . . . . .                            log_p=-2.195
+
+Seed: 'the'
+  Greedy : the cat cat ran ran ran ran .                  log_p=-4.556
+  Beam   : the cat cat ran ran ran ran .                  log_p=-4.556
+
+============================================================
+Top-5 beam search sequences from seed 'the'
+============================================================
+  #1  log_p= -4.556  |  the cat cat ran ran ran ran .
+  #2  log_p= -4.779  |  the cat cat cat ran ran ran ran
+  #3  log_p= -4.837  |  the cat cat dog ran ran ran ran
+  #4  log_p= -4.925  |  the cat cat ran ran ran ran ran
+  #5  log_p= -5.071  |  the cat cat ate ate ate ate ate
