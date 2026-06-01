@@ -1,0 +1,37 @@
+{
+  "comparison": [
+    {
+      "model": "RNN",
+      "ppl": 2.36,
+      "note": "ch05/rnnlm.py"
+    },
+    {
+      "model": "LSTM",
+      "ppl": 5.47,
+      "note": "ch06/lstm_lm.py (small corpus)"
+    },
+    {
+      "model": "GRU",
+      "ppl": 5.1,
+      "note": "ch06/gru_lm.py"
+    },
+    {
+      "model": "Transformer",
+      "ppl": 1.46,
+      "note": "ch08/transformer_lm.py"
+    }
+  ],
+  "datasets": {
+    "small_corpus": "the dog ran . the cat sat . (repeat, 8 tokens)",
+    "extended_corpus": "the dog ran/ate/sat . a cat ran . x5 (20 sentences)"
+  },
+  "key_findings": [
+    "Transformer achieves lowest ppl=1.46 on small corpus",
+    "LR decay (x0.1) at ep20,25 gives significant boost for CIFAR-10",
+    "Mixup regularization: C08 Final Top-1=90.25% (peak 91.9%@ep24)",
+    "BPE: vocab=144 after 117 merges on 8-sentence x50 corpus",
+    "Seq2seq translation: 100% accuracy on synthetic JA-EN 200 pairs",
+    "BiLSTM-NER: token accuracy 100% on synthetic dataset",
+    "BERT MLM: 4/5 masked token top-1 accuracy"
+  ]
+}
