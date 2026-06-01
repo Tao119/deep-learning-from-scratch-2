@@ -1,0 +1,21 @@
+epoch     1  loss=8.3179
+epoch   201  loss=7.5711
+epoch   401  loss=7.2859
+epoch   601  loss=7.6692
+epoch   801  loss=7.4736
+
+--- Skip-gram similarities ---
+
+[query] you
+ and: 0.3815
+ hello: 0.0756
+ i: -0.1430
+ .: -0.1656
+ goodbye: -0.1685
+
+[query] goodbye
+ i: 0.9966
+ .: -0.0846
+ say: -0.1257
+ you: -0.1685
+ and: -0.3349

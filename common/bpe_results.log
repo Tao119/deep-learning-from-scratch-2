@@ -1,0 +1,32 @@
+{
+  "vocab_size": 28,
+  "merges": 15,
+  "example_encode": [
+    27,
+    12,
+    21
+  ],
+  "example_decode": "the dog ran",
+  "top_tokens": [
+    ".",
+    ".</w>",
+    "</w>",
+    "a",
+    "a</w>",
+    "at",
+    "at</w>",
+    "c",
+    "cat</w>",
+    "d",
+    "do",
+    "dog",
+    "dog</w>",
+    "e",
+    "g",
+    "h",
+    "n",
+    "o",
+    "r",
+    "ra"
+  ]
+}

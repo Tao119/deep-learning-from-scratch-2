@@ -1,0 +1,12 @@
+[GRU] epoch   1  ppl=8.00
+[GRU] epoch  51  ppl=139.93
+[GRU] epoch 101  ppl=4.16
+[GRU] epoch 151  ppl=12.04
+[LSTM] epoch   1  ppl=8.00
+[LSTM] epoch  51  ppl=2.79
+[LSTM] epoch 101  ppl=6.10
+[LSTM] epoch 151  ppl=5.11
+
+GRU  final ppl: 17.97
+LSTM final ppl: 5.90
+Lower perplexity: LSTM
