@@ -1,0 +1,37 @@
+{
+  "vocab_size": 144,
+  "merges": 117,
+  "examples": [
+    {
+      "input": "the cat ran",
+      "tokens": [
+        127,
+        13,
+        107
+      ],
+      "decoded": "the cat ran",
+      "n_tokens": 3
+    },
+    {
+      "input": "she sells sea",
+      "tokens": [
+        117,
+        114,
+        113
+      ],
+      "decoded": "she sells sea",
+      "n_tokens": 3
+    },
+    {
+      "input": "to be or not",
+      "tokens": [
+        129,
+        7,
+        71,
+        66
+      ],
+      "decoded": "to be or not",
+      "n_tokens": 4
+    }
+  ]
+}
