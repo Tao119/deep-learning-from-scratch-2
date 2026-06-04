@@ -1,0 +1,16 @@
+{
+  "n_docs": 200,
+  "vocab_size": 1310,
+  "k": 5,
+  "kmeans_iterations": 7,
+  "inertia": 7552.19,
+  "adjusted_rand_index": 0.2747,
+  "silhouette_score": 0.0122,
+  "cluster_sizes": {
+    "0": 29,
+    "1": 54,
+    "2": 44,
+    "3": 42,
+    "4": 31
+  }
+}

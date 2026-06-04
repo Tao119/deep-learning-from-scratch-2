@@ -1,0 +1,17 @@
+{
+  "CBOW": {
+    "analogy_accuracy": 0.1,
+    "similarity_spearman_rho": -0.0324,
+    "sentiment_cv_accuracy": 0.475
+  },
+  "SkipGram": {
+    "analogy_accuracy": 0.1,
+    "similarity_spearman_rho": 0.4941,
+    "sentiment_cv_accuracy": 0.45
+  },
+  "Subword": {
+    "analogy_accuracy": 0.0,
+    "similarity_spearman_rho": 0.2824,
+    "sentiment_cv_accuracy": 0.325
+  }
+}
